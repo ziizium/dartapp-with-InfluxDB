@@ -27,4 +27,6 @@ void main() async {
   var healthCheck = await client.getHealthApi().getHealth();
   print(
       'Health check: ${healthCheck.name}/${healthCheck.version} - ${healthCheck.message}');
+  
+  client.close();
 }
