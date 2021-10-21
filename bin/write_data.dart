@@ -40,4 +40,6 @@ void main() async {
   }).catchError((exception) {
     print(exception);
   });
+  
+  client.close();
 }
