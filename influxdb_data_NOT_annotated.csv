@@ -1,0 +1,9 @@
+{
+  "measurement": "watt-hour",
+  "tags": [
+	"house_name": "The Johnsons"
+  ],
+  "fields": [
+	"electricity_consumption": 78
+  ]
+}

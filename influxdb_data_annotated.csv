@@ -1,0 +1,7 @@
+#group,false,false,true,true,false,false,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,double,string,string,string
+#default,mean,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,house_name
+,,0,2021-10-19T13:23:00.9407525Z,2021-10-19T14:23:00.9407525Z,2021-10-19T13:37:50Z,78,electricity_consumption,watt-hour,Mavericks
+,,1,2021-10-19T13:23:00.9407525Z,2021-10-19T14:23:00.9407525Z,2021-10-19T13:32:40Z,95,electricity_consumption,watt-hour,The Johnsons
+
