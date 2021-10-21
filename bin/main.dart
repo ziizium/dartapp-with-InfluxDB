@@ -21,7 +21,7 @@ void main() async {
       token:
           'Your token',
       org: 'Your org name',
-      bucket: 'Ypur bucket name',
+      bucket: 'Your bucket name',
       debug: true);
 
   var healthCheck = await client.getHealthApi().getHealth();
